@@ -1,0 +1,521 @@
+/*Start Global Rulez*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 2500px;
+
+}
+
+/*End Global Rulez*/
+/*Start Header*/
+.header {
+    background: url('header.jpg') no-repeat Top Center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    min-height: 500px;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    background-color: rgba(0, 168, 255, .5)
+}
+
+.header .overlay h1 {
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.header .overlay .plan {
+    border: 1.5px solid #CCC;
+    font-size: 24px;
+    width: 30%;
+    float: left;
+    padding: 5px;
+    margin-left: 17%;
+    margin-right: -16%;
+}
+
+.header .overlay .order {
+    border: 1.5px solid #CCC;
+    font-size: 24px;
+    padding: 10px;
+    margin-top: 30px;
+    margin: 50px;
+    width: 72%;
+    margin-left: 13%;
+}
+
+
+@media(max-width:767px) {
+
+    /*Mobile & Tablet Rules*/
+    .header .overlay .plan {
+        float: none;
+        margin: 0 auto 20px;
+        font-size: 20px;
+    }
+
+
+}
+
+/*End Header*/
+/*Start Features*/
+.features {
+    padding: 30px 0;
+}
+
+
+.features .feat {
+    color: #555;
+    padding: 0 23px 0 0;
+    margin-bottom: 30px;
+}
+
+.features .feat h2 {
+    margin: 10px 0 8px;
+}
+
+.features .feat p {
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media(max-width:767px) {
+    .features .feat {
+        text-align: center;
+    }
+}
+
+@media(min-width:768px) {
+    .features .feat {
+        width: 50%;
+    }
+}
+
+@media(min-width:992px) {
+    .features .feat {
+        width: 33.33333%;
+    }
+}
+
+/*End Features*/
+
+/*Start About us*/
+.about-us {
+    background-color: #e2dfdf;
+    padding: 30px 0;
+}
+
+
+.about-us .responsive-paragraph {
+    color: #848484;
+    font-size: 18px;
+}
+
+/*End About us*/
+/*Start gallrey*/
+
+.gallery {
+    margin: 1%;
+}
+
+.gallery .image:hover {
+    opacity: 0.3;
+    background-color: #2c2b63;
+}
+
+.gallery .image {}
+
+@media(max-width:767px) {
+    .gallery .image {
+        width: 100%;
+    }
+}
+
+@media(min-width:768px) {
+    .gallery .image {
+        width: 50%;
+    }
+}
+
+@media(min-width:992px) {
+    .gallery .image {
+        width: 33.33333%;
+    }
+}
+
+@media(min-width:1200px) {
+    .gallery .image {
+        width: 25%;
+    }
+}
+
+/*End gallery*/
+
+/*Start Our Pricing Table*/
+.pricing-table {
+    background-color: #e2dfdf;
+    color: #2c2b63;
+    padding: 50px 0;
+}
+
+.pricing-table .h1 {
+    margin: 0 0 20px;
+    font-size: 50px;
+}
+
+.pricing-table .pricing-plan {
+    width: 33.3333%;
+    border: 3px solid #050156;
+    padding: 20px 0;
+    position: relative;
+}
+
+.pricing-table .pricing-plan h3 {
+    margin: 0 0 10px;
+    font-size: 26px;
+}
+
+.pricing-table .pricing-plan .pricing {
+    display: inline-block;
+    margin: 0 0 10px;
+    font-size: 22px;
+    color: #bfbfbf;
+}
+
+.pricing-table .pricing-plan ul {
+    line-height: 2;
+    font-size: 18px;
+}
+
+@media(max-width:767px) {
+    .pricing-table .pricing-plan {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+}
+
+@media(min-width:768px) {
+    .pricing-table .pricing-plan {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+}
+
+@media (min-width:992px) {
+    .pricing-table .pricing-plan:not(.ultimate) {
+        margin-right: 1%;
+    }
+
+    .pricing-table .pricing-plan {
+        width: 32.66666%;
+        margin-bottom: 0;
+    }
+
+    .pricing-table .pricing-plan .plus {
+        left: 32.66666%;
+    }
+
+    .pricing-table .pricing-plan .Premium {
+        right: 32.66666%;
+    }
+}
+
+/*End Our Pricing Table*/
+
+/*Start Testmonials*/
+.testmonials {
+    padding: 50px 0;
+}
+
+.testmonials .person-say {
+    background-color: #050156;
+    padding: 20px;
+    margin: 0 0 20px;
+    border: 1px solid #DDD;
+    width: 49%;
+    margin-right: 1%;
+    border-radius: 10px;
+    color: #FFF;
+}
+
+.testmonials .person-say .image {
+    width: 130px;
+}
+
+.testmonials .person-say .image img {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+@media(max-width:767px) {
+    .testmonials .person-say {
+        width: 100%
+    }
+
+    .testmonials .person-say .image {
+        float: none;
+        margin: auto;
+    }
+
+    .testmonials .person-say h3 {
+        float: none;
+        text-align: center;
+    }
+
+    .testmonials .person-say p {
+        float: none;
+        width: 100%;
+    }
+}
+
+
+@media(min-width:768px) {
+
+    .testmonials .person-say:first-of-type {
+        width: 100%;
+    }
+
+    .testmonials .person-say:not(:first-of-type) {
+        width: 49%;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .testmonials .person-say:first-of-type .image {
+        float: none;
+        margin: auto;
+    }
+
+    .testmonials .person-say:not(:first-of-type) h3 {
+        float: none;
+        text-align: center;
+    }
+
+    .testmonials .person-say:not(:first-of-type) p {
+        float: none;
+        width: 100%
+    }
+}
+
+@media (min-width:992px) {
+    .testmonials .person-say:first-of-type {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+/*End Testmonials*/
+
+/*Start Information*/
+.information {
+    background-color: #e2dfdf;
+    padding: 30px 0;
+    font-size: 18px;
+}
+
+.information .info-list li {
+    display: inline-block;
+    padding: 10px;
+    background-color: #CCC;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.information .info-list li.selected {
+    background-color: #FFF;
+    color: #050156;
+}
+
+.information .info-content {
+    margin-bottom: 30px;
+}
+
+.information .info-content > div {
+    padding: 10px;
+    background-color: #FFF;
+    line-height: 2;
+}
+
+.information .info-content > div:not(:first-of-type) {
+    display: none;
+}
+
+@media(max-width:767px) {
+    .information .info-list li {
+        display: block;
+    }
+}
+
+/*End Information*/
+/*Start Footer*/
+.footer {
+    background-color: #333;
+    color: #050156;
+}
+
+.footer .copyright,
+.footer .design {
+    padding: 20px;
+}
+
+@media(max-width:767px) {
+
+    .footer .copyright,
+    .footer .design {
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media(min-width:768px) {
+
+    .footer .copyright,
+    .footer .design {
+        width: 50%;
+        text-align: center;
+    }
+
+}
+
+/*End Footer*/
+
+/*Start Rulez*/
+@media(max-width:767px) {
+
+    /*Mobile & Tablet Rules*/
+    .header .overlay h1 {
+        font-size: 35px;
+    }
+
+    .visible-xs {
+        display: block !important
+    }
+
+    .hidden-xs {
+        display: none !important
+    }
+
+    .responsive-paragraph {
+        text-align: center;
+        font-size: 15px !important;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+
+    /*Small Screen Rules*/
+    .container {
+        width: 750px;
+    }
+
+    .visible-sm {
+        display: block !important
+    }
+
+    .hidden-sm {
+        display: none !important
+    }
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+
+    /*Medium Screen Rules*/
+    .container {
+        width: 970px;
+    }
+
+    .visible-md {
+        display: block !important
+    }
+}
+
+@media(min-width:1200px) {
+
+    /*Large Screen Rules*/
+    .container {
+        width: 1170px;
+    }
+
+    .visible-lg {
+        display: block !important
+    }
+}
+
+/*End Rulez*/
+
+/*Start My Framework*/
+.container {
+    margin: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+    display: none;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.h1 {
+    font-size: 42px;
+    color: #2c2b63;
+}
+
+.responsive-paragraph {
+    line-height: 1.8;
+
+}
+
+.responsive-image {
+    width: 100%;
+}
+
+.classic-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+img-thumbnail {
+    padding: 3px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+}
+
+/*End My Framework*/
